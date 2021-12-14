@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from '../components/Carousel'
 import FeatureSlider from '../components/FeatureSlider'
+import MySlider from '../components/MySlider'
 
 function homeScreen() {
 
@@ -79,6 +80,8 @@ function homeScreen() {
 <FeatureSlider/>
 
 <Carousel elements={items} width={100} height={120} title={"Special Features"}  isItemTitle={true} />
+
+<MySlider/>
 
         </div>
     )
