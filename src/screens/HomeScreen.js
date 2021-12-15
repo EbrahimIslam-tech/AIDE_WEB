@@ -72,8 +72,7 @@ function homeScreen() {
     return (
         <div className="home__screen">
          <Header/>
-            <h1>This is the Home Screen....
-            </h1>
+      
             
 <Carousel elements={items} width={140} height={90} title={"Top Category"} isItemTitle={true} />
 
