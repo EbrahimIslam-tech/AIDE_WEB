@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from '../components/Carousel'
 import FeatureSlider from '../components/FeatureSlider'
-
+import Header from '../components/Header';
 function homeScreen() {
 
     const items=[
@@ -71,8 +71,8 @@ function homeScreen() {
 
     return (
         <div className="home__screen">
-            <h1>This is the Home Screen....
-            </h1>
+         <Header/>
+      
             
 <Carousel elements={items} width={140} height={90} title={"Top Category"} isItemTitle={true} />
 
