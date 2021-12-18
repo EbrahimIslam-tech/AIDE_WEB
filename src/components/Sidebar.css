@@ -1,0 +1,119 @@
+.menuBar_container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+  padding: 1.1rem 0px;
+  border-right: 8px solid #009999;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  z-index: 10;
+  margin-right: 1.5rem;
+}
+
+.menuBar_item {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.9rem;
+}
+
+.sidebar_details_container {
+  width: 285px;
+  height: 100%;
+}
+.sidebar_header_title {
+  display: flex;
+}
+.title_header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #33907c;
+  margin: -2px 0px 0 15px;
+}
+
+.mysidebar_button {
+  width: 87px;
+  height: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  background: #ffffff;
+  border-radius: 24px;
+  text-align: center;
+  text-decoration: none;
+  padding: 7px 20px;
+  margin-right: 0.2rem;
+  color: #626262;
+  border: 1px solid #626262;
+}
+.selected_button {
+  background: #33907c;
+  color: #ffffff;
+  border: none;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar_item_selector {
+  margin: 0.5rem;
+}
+
+.sidebar_searchbar {
+  margin-top: 20px;
+}
+
+.sidebar_details_body {
+  background: #ffffff;
+  padding: 0.4rem;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1rem 5px;
+  height: 100%;
+}
+
+.sidebar_input_search {
+  background: #efefef;
+  border: none;
+  border-radius: 20px;
+  padding: 3%;
+  width: 95%;
+}
+
+.sidebar_details_content_wrapper {
+  overflow: hidden;
+}
+.containter_hide {
+  display: none;
+}
+.sidebar_list_container {
+  overflow-y: auto;
+  border-radius: 0px 0px 10px 10px;
+  height: 600px;
+  padding: 0px !important;
+  transition: 0.5s;
+}
+
+.sidebar_list_container > li {
+  display: block;
+  margin: 0.4rem;
+  padding: 0.2rem;
+  background: #ffffff;
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  border-bottom: 1px solid #e1e1e1;
+}
