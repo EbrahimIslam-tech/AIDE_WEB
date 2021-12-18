@@ -1,13 +1,16 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import HomeScreen from './screens/HomeScreen';
-import './App.css';
-import TestScreen from './screens/TestScreen';
-
+import HomeScreen from '../screens/HomeScreen';
+import '../App.css';
+import TestScreen from '../screens/TestScreen';
+import Sidebar from '../components/Sidebar';
+import 'animate.css';
 
 function App() {
   return (
 
   <div className="App">
+
+    <Sidebar/>
 
 <Router>
      

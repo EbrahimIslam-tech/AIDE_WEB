@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import { useRef } from "react";
 import { useEffect } from "react";
-//import "./ipl.css";
 import { ButtonBase } from "@material-ui/core";
 
 const MySlider = () => {
@@ -22,7 +21,7 @@ const MySlider = () => {
           padding: "0 10px",
         }}
       >
-        <h1 style={{ fontStyle: "italic" }}>Match Highlights</h1>
+        <h1 style={{ fontStyle: "italic" }}>Title of the slider</h1>
         <div style={{ display: "flex" }}>
           <ButtonBase
             style={{
