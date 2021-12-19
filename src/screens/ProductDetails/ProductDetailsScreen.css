@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:wght@300;400&display=swap');
+
+.productDetailsScreen{
+    display: flex;
+    width: 1500px;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+.productDetailsScreen__previewImages {
+    display: flex;
+    flex-direction: column;
+    width: 55px;
+}
+
+.productDetailsScreen__previewImage {
+    margin-top: 5px;
+    width: 55px;
+    height: 70px;
+}
+
+.productDetailsScreen__imageContainer {
+    display: flex;
+    width: 300px;
+    align-items: flex-start;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.productDetailsScreen__productInfoContainer {
+    padding: 10px;
+}
+
+.productDetailsScreen__productTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.productDetailsScreen__productInStock {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 5px;
+    color: #067D7D;
+}
+
+.productDetailsScreen__productRating {
+    margin: 5px 2px 0px 0px;
+}
+
+.productDetailsScreen__productDealings{
+    display: flex;
+    margin-top: 10px;
+}
+
+.productDetailsScreen__productDealingsTitle {
+    margin-right: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2BD04F;
+}
+
+.productDetailsScreen__productDealingsSpecialDeal {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 5px;
+    color: #2BD04F;
+}
+
+.productDetailsScreen__productDealingsDeadline {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2BD04F;
+}
+
+.productDetailsScreen__productPricing {
+    display: flex;
+    align-items: flex-end;
+}
+
+.productDetailsScreen__basePrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #3E3E3E;
+    margin-right: 10px;
+}
+
+.productDetailsScreen__expirePrice {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    margin-right: 10px;
+    color: #F64749;
+}
+
+.productDetailsScreen__offPercentage {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2BD04F;
+    margin-right: 20px;
+}
+
+.productDetailsScreen__priceContainer {
+    display: flex;
+    align-items: center;
+}
+
+.productDetailsScreen__availableOffers{
+    margin-top: 20px;
+}
+
+.productDetailsScreen__availableOffersTitle {
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 16px;
+    color: #009999;
+}
+
+.productDetailsScreen__Offer {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.productDetailsScreen__OfferTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #004FE8;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.productDetailsScreen__creditCardOffer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 5px;
+    color: #4A4A4A;
+}
+
+.productDetailsScreen__tC{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+    color: #004FE8;
+}
+
+.productDetailsScreen__moreOffer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 5px;
+    color: #004FE8;
+}
+
+.productDetailsScreen__aboutProductHeading {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 0px 0px;
+}
+
+.productDetailsScreen__aboutTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #009999;
+}
+
+.productDetailsScreen__aboutProductDetails {
+    margin-top: 20px;
+}
+
+.productDetailsScreen__productGenre {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4A4A4A;
+}
+
+.productDetailsScreen__productGenreName {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 5px;
+    color: #4A4A4A;
+}
+
+.productDetailsScreen__deliveryDetails {
+    width: 330px;
+    padding: 5px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.productDetailsScreen__aideLogoImages {
+    margin-right: 5px;
+}
+
+.productDetailsScreen__aideMembership {
+    display: flex;
+    align-items: center;
+}
+
+.productDetailsScreen__aideLogo {
+    position: relative;
+    top: 10px;
+}
+
+.productDetailsScreen__aide+ {
+    position: absolute;
+    z-index: 2;
+}
+
+.productDetailsScreen__aideTitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    display: inline;
+    color: #009999;
+}
+
+.productDetailsScreen__aideMembershipTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #009999;
+}
+
+.productDetailsScreen__aideMemberShipForm {
+    display: inline-block;
+}
+
+.productDetailsScreen__officeLocation {
+    display: flex;
+    margin-top: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.productDetailsScreen__officeAddress {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #626262;
+}
+
+.productDetailsScreen__officeMobile {
+    margin-top: 10px;
+}
+
+.productDetailsScreen__cartButtonGroup {
+    width: 310px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.productDetailsScreen__basketOutline {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    background: #07B6B6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 150px;
+}
+
+.productDetailsScreen__regUser {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.productDetailsScreen__regUserTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #067D7D;
+}
+
+a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.productDetailsScreen__homeDelivery {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.productDetailsScreen__deliveryTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.productDetailsScreen__deliveryTime {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #828282;
+}
+
+.productDetailsScreen__homeDeliveryCharge {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.productDetailsScreen__freeDelivery {
+    margin-top: 10px;
+}
+
+.productDetailsScreen__deliveryOptions {
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.productDetailsScreen__deliveryOptionsTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4A4A4A;
+    padding-left: 15px;
+}
+
+.productDetailsScreen__secureTransaction {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.productDetailsScreen__secureTransactionTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #067D7D;
+}
+
+.productDetailsScreen__soldDelivered {
+    display: flex;
+    align-items: center;
+}
+
+.productDetailsScreen__soldDeliveredTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 10px;
+    color: #000000;
+}
+
+.productDetailsScreen__giftOutlineTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
