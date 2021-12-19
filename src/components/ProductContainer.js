@@ -4,7 +4,8 @@ import "./ProductContainer.css";
 const ProductContainer = () => {
     return (
         <div className="productContainer">
-            <p>Product Container</p>
+            <p>Product Containers</p>
+
         </div>
     )
 }
