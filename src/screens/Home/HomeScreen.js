@@ -1,9 +1,7 @@
 import React from 'react'
-import Carousel from '../components/Carousel'
-import FeatureSlider from '../components/FeatureSlider'
-import MySlider from '../components/MySlider'
-
-function homeScreen() {
+import Carousel from '../../components/Carousel/Carousel'
+import FeatureSlider from '../../components/FeatureSlider/FeatureSlider'
+function HomeScreen() {
 
     const items=[
         {
@@ -74,16 +72,14 @@ function homeScreen() {
         <div className="home__screen">
       
             
-<Carousel elements={items} width={140} height={90} title={"Top Category"} isItemTitle={true} />
+            <Carousel elements={items} width={140} height={90} title={"Top Category"} isItemTitle={true} />
 
-<FeatureSlider/>
+            <FeatureSlider/>
 
-<Carousel elements={items} width={100} height={120} title={"Special Features"}  isItemTitle={true} />
-
-<MySlider/>
+            <Carousel elements={items} width={100} height={120} title={"Special Features"}  isItemTitle={true} />
 
         </div>
     )
 }
 
-export default homeScreen
+export default HomeScreen;

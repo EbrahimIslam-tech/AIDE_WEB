@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:wght@300&display=swap');
+
+.header__container {
+    display: flex;
+    align-items: center;
+    width: 1534px;
+    height: 60px;
+    top: 0px;
+    background: #F4F4F4;
+    border: 1px solid #EFF1F8;
+    overflow: hidden;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.header__aideName{
+    width: 50px;
+    height: 33px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #009999;
+}
+
+.header__moto{
+    width: 200px;
+    height: 19px;
+    margin-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #626262;
+}
+
+.header__inputElem{
+    width: 670px;
+    height: 40px;
+    margin-left: 200px;
+    top: 10px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+}
+
+/* .header__searchDivider{
+    width: 35px;
+    height: 0px;
+    left: 982px;
+    border: 1px solid #9B9B9B;
+    transform: rotate(90deg);
+} */
+
+.header__searchBar{
+    position: relative;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+
+.header__notifyIcon{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    align-self: center;
+}
+
+/* .header__profile{
+    position: absolute;
+    left: 1093px;
+    top: 10px;
+} */
+
+.header__profileName{
+    margin-left: 10px;
+    width: 110px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    background-color: #29a086; 
+    color: #FFFFFF;
+}
+
+::placeholder {
+    color: #ccc;
+    padding: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
