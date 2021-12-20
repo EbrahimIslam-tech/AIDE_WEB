@@ -7,7 +7,8 @@ const RoutesContainer = () => {
     return (
         <Routes>
             <Route path='/' element={<HomeScreen/>} />
-            <Route path='productDetails' element={<ProductDetailsScreen/>} />
+            <Route path='/productDetails' element={<ProductDetailsScreen/>} />
+
         </Routes>
     )
 }

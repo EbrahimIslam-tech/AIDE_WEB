@@ -1,8 +1,8 @@
-*{
+* {
   margin: 0;
 }
 
-.App{
+.App {
   display: flex;
   flex-direction: column;
 }
